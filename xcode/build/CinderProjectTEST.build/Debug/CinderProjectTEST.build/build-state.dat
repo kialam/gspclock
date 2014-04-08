@@ -3814,6 +3814,16 @@ c000000005178323100000000000038D3
 t1366831665
 s14547
 
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Cinder.h
+c000000005178322F0000000000000CEB
+t1366831663
+s3307
+
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/CinderMath.h
+c00000000517832300000000000001F9E
+t1366831664
+s8094
+
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Color.h
 c000000005178323000000000000035A1
 t1366831664
@@ -3859,6 +3869,11 @@ c00000000517832320000000000002D7E
 t1366831666
 s11646
 
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Matrix.h
+c00000000517832300000000000000EDD
+t1366831664
+s3805
+
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Matrix22.h
 c00000000517832300000000000003E52
 t1366831664
@@ -3893,6 +3908,11 @@ N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/includ
 c00000000517832310000000000000EDA
 t1366831665
 s3802
+
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Quaternion.h
+c00000000517832300000000000005499
+t1366831664
+s21657
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Ray.h
 c00000000517832310000000000000AA0
@@ -3934,10 +3954,20 @@ c000000005178323000000000000017F7
 t1366831664
 s6135
 
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051783230000000000000AD7C
+t1366831664
+s44412
+
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/app/App.h
 c00000000517832300000000000008B1F
 t1366831664
 s35615
+
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c00000000517831540000000000002262
+t1366831444
+s8802
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/app/AppNative.h
 c00000000517831530000000000000876
@@ -3984,43 +4014,48 @@ c00000000517832320000000000002552
 t1366831666
 s9554
 
+N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../../cinder_0.8.5_mac/include/cinder/gl/gl.h
+c00000000517832300000000000006469
+t1366831664
+s25705
+
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../resources/CinderApp.icns
 c00000000533B0BA60000000000070375
 t1396378534
 s459637
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp
-c00000000533B4EFE000000000000084D
-t1396395774
-s2125
+c0000000053433809000000000000088D
+t1396914185
+s2189
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList
-c00000000533B0C29000000000000009B
-t1396378665
+c00000000533F1208000000000000009B
+t1396642312
 s155
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o
-t1396393498
-s1699652
+t1396914103
+s1699880
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app
-t1396393499
+t1396914103
 s102
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist
-t1396378665
+t1396642313
 s1477
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST
-t1396393499
-s2772856
+t1396914103
+s2772864
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/PkgInfo
-t1396378665
+t1396642313
 s8
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns
-t1396378665
+t1396642313
 s459637
 
 N/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/CinderProjectTEST_Prefix.pch
@@ -4036,43 +4071,8 @@ i"cinder/Matrix.h"
 i"cinder/Vector.h"
 i"cinder/Quaternion.h"
 
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/Cinder.h
-c000000005178322F0000000000000CEB
-t1366831663
-s3307
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/CinderMath.h
-c00000000517832300000000000001F9E
-t1366831664
-s8094
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/Matrix.h
-c00000000517832300000000000000EDD
-t1366831664
-s3805
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/Quaternion.h
-c00000000517832300000000000005499
-t1366831664
-s21657
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/Vector.h
-c0000000051783230000000000000AD7C
-t1366831664
-s44412
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
-c00000000517831540000000000002262
-t1366831444
-s8802
-
-N/Users/kia_lam/Sites/Beta/cinder_0.8.5_mac/include/cinder/gl/gl.h
-c00000000517832300000000000006469
-t1366831664
-s25705
-
 N/var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth
-t1396378669
+t1396642504
 s64046848
 
 NInfo.plist
@@ -4085,11 +4085,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies97e5d78086ebb841^2520da8086ebb841^---0#1#0#--18"Check dependencies36"24A2B995-6CB4-4FB7-BCF6-7EBCB8668C96-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies76c67f8d6ff3b841^49f77f8d6ff3b841^---0#1#0#--18"Check dependencies36"EB6DE2BD-3672-4F9F-A7A3-AC84D4CB7C57-
 
 CCompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418088576.903759
-e418088578.267016
+s418606989.538237
+e418606990.438413
 r1
 xCompileC
 x./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o
@@ -4098,42 +4098,42 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp8176e78086ebb841^575c448286ebb841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp0000000000000000^3195"CompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o ../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.dia -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o36"71E59EB4-4743-45A2-BBFC-7F5B09DF396C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cppc5e4898d6ff3b841^2e3b708e6ff3b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp0000000000000000^3195"CompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o ../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.dia -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o36"A2FD28E1-901C-416C-8099-5D13B4D7B013-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns
-s418071465.726505
-e418071465.747416
+s418335113.509618
+e418335114.097044
 r1
 xCpResource
 x../resources/CinderApp.icns
 x./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns6b0cbaa943ebb841^6057bfa943ebb841^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns000000000080d041^461"CpResource ../resources/CinderApp.icns ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../resources/CinderApp.icns /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources36"A911BB2D-6586-4EDC-9D97-991F20D0C7F0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icnse882828949efb841^34d8188a49efb841^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns000000000080d041^461"CpResource ../resources/CinderApp.icns ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../resources/CinderApp.icns /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources36"5E951891-B5A3-4AA7-A097-229C6873F1D5-
 
 CLd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386
-s418088578.274515
-e418088581.677179
+s418606990.445937
+e418606990.979105
 r1
 xLd
 x/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST1157468286ebb841^ab5bad8586ebb841^---0#0#0#--1079"Ld ./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST36"E0AB814F-4008-448E-AB7D-9376A5C6365F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST8239728e6ff3b841^8fa6fa8e6ff3b841^---0#0#0#--1079"Ld ./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST36"A8A3FDCE-8B41-47E0-9696-355EDFCCA700-
 
 CProcessInfoPlistFile /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist Info.plist
-s418071465.714192
-e418071465.717473
+s418335113.150837
+e418335113.500709
 r1
 xProcessInfoPlistFile
 x/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist
 xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist1de3b6a943ebb841^60acb7a943ebb841^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/Info.plist0000000000000000^447"ProcessInfoPlistFile ./build/Debug/CinderProjectTEST.app/Contents/Info.plist Info.plist    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist36"83D09FBF-692B-4255-A409-5E541B1D3694-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistacab268949efb841^a92e808949efb841^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/Info.plist0000000000000000^447"ProcessInfoPlistFile ./build/Debug/CinderProjectTEST.app/Contents/Info.plist Info.plist    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist36"2D02D3DB-DC21-424D-A520-DB9194029E4F-
 
 CProcessPCH++ /Users/kia_lam/Library/Developer/Xcode/DerivedData/CinderProjectTEST-fyvfazulcehpvaavrmffmemctnsd/Index/PrecompiledHeaders/CinderProjectTEST_Prefix-awurevcvueiaysfjtgqrwvrffhxy_ast/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418071465.761015
-e418071469.417123
+s418335114.105114
+e418335305.299150
 r1
 xProcessPCH++
 x/var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth
@@ -4142,13 +4142,13 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CinderProjectTEST_Prefix.pch42eac2a943ebb841^71c86aad43ebb841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/CinderProjectTEST_Prefix.pch0000000000000000^3164"ProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug --serialize-diagnostics /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.dia -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/CinderProjectTEST_Prefix.pch -o /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.d36"F2AFDA5E-937B-42CB-8A85-FD5C50D062F4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CinderProjectTEST_Prefix.pchc9011b8a49efb841^a72146494aefb841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/CinderProjectTEST_Prefix.pch0000000000000000^3164"ProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/build/Debug --serialize-diagnostics /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.dia -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/CinderProjectTEST_Prefix.pch -o /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-bwxzxzewqwdbhlflbocixiflkcsl/CinderProjectTEST_Prefix.pch.d36"7ACD0BE0-77D1-4FDF-BC6F-857C804311A5-
 
 CTouch /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app
-s418088581.685726
-e418088581.762433
+s418606990.988068
+e418606990.992195
 r1
 xTouch
 x/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app8099af8586ebb841^e02ec38586ebb841^---0#0#0#--207"Touch ./build/Debug/CinderProjectTEST.app    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app36"F4765CC1-95DA-49BB-BFDC-004B856F009A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.appc1fdfc8e6ff3b841^1501fe8e6ff3b841^---0#0#0#--207"Touch ./build/Debug/CinderProjectTEST.app    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app36"39F267C2-5972-4F72-ABAB-D00BA2495E95-
 

@@ -50,7 +50,7 @@ void AnalogClockApp::update()
 void AnalogClockApp::draw()
 {
 	// clear the window with a black background
-	gl::clear( Color::white() );
+	gl::clear( Color(.953,.937,.937), true );
     
 	// get the center of the window
 	Vec2f center = 0.5f * Vec2f( getWindowSize() );

@@ -2,6 +2,7 @@
 #include "cinder/gl/gl.h"
 #include <time.h>
 #include <stdio.h>
+#include "cinder/Rand.h"
 #include "cinder/Timeline.h"
 #include "boost/date_time/posix_time/posix_time.hpp"
 
@@ -28,6 +29,7 @@ protected:
 protected:
 	// your class members go here
 };
+
 
 // construction and destruction
 
@@ -76,8 +78,6 @@ void AnalogClockApp::draw()
     
     // Just print out the hours and minutes to show you
     cout << "day " << day << " hour " << hour << " min "<< min << " sec " << sec << endl;
-    //cout << sec/60 * Math_PI*2;
-
     
     // Get current time from the clock, using microseconds resolution
     boost::posix_time::ptime now = boost::posix_time::microsec_clock::local_time();
@@ -127,7 +127,7 @@ void AnalogClockApp::draw()
     gl::rotate( hour /12*360+min/60/12*360 ); // 30 degrees per 3600 seconds
     //  gl::drawSolidRect( Rectf(-2, -60, 2, 15) );
     glColor4f(.75, .71f, .36f, .8f); //yellow
-    gl::drawSolidCircle( Vec2f(0,-60), 40, 200 );
+    gl::drawSolidCircle( Vec2f(0,-60), abs(hour+(min/60)) + 10.0, 200 );
 	gl::popModelView();
     
 	// draw the long hand for the minutes
@@ -135,20 +135,17 @@ void AnalogClockApp::draw()
     gl::translate( center );
     gl::rotate( min /60*360 +sec/60/60*360 ); // 360 degrees per 3600 seconds
     glColor4f(.33f, .32f, .33f, .8f); //grey
-   // gl::drawSolidRect( Rectf(-2, -100, 2, 15) );
-    gl::drawSolidCircle( Vec2f(0,-150), 40, 300 );
+    // gl::drawSolidRect( Rectf(-2, -90, 2, 15) );
+    gl::drawSolidCircle( Vec2f(0,-120), abs(min+(sec/60)) + 20.0, 300 );
 	gl::popModelView();
-    
-	// set the current drawing color to red
-//	gl::color( Color(1, 0, 0) );
-    
+        
 	// draw the hand for the seconds
 	gl::pushModelView();
     gl::translate( center );
     gl::rotate( seconds /60*360 +milliseconds/1000/60*360 ); // this adds a smoother rotation than the second hand alone
     //gl::drawSolidRect( Rectf(-1, -100, 1, 15) );
     glColor4f(.35f, .96f, .72f, .8f); //aqua
-    gl::drawSolidCircle( Vec2f(0,-220), 40, 50 );
+    gl::drawSolidCircle( Vec2f(0,-180), abs(seconds+(milliseconds/1000)) + 10.0, 50 );
 	gl::popModelView();
 }
 

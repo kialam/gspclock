@@ -42,8 +42,6 @@ void AnalogClockApp::setup()
 	// we don't need to load or setup any stuff in this application
 }
 
-// game loop
-
 void AnalogClockApp::update()
 {
 	// instead of in the update method, we will do all 'animation' in the draw method
@@ -129,7 +127,7 @@ void AnalogClockApp::draw()
     gl::rotate( hour /12*360+min/60/12*360 ); // 30 degrees per 3600 seconds
     //  gl::drawSolidRect( Rectf(-2, -60, 2, 15) );
     glColor4f(.75, .71f, .36f, .8f); //yellow
-    gl::drawSolidCircle( Vec2f(0,-220), 40, 200 );
+    gl::drawSolidCircle( Vec2f(0,-60), 40, 200 );
 	gl::popModelView();
     
 	// draw the long hand for the minutes
@@ -138,7 +136,7 @@ void AnalogClockApp::draw()
     gl::rotate( min /60*360 +sec/60/60*360 ); // 360 degrees per 3600 seconds
     glColor4f(.33f, .32f, .33f, .8f); //grey
    // gl::drawSolidRect( Rectf(-2, -100, 2, 15) );
-    gl::drawSolidCircle( Vec2f(0,-265), 40, 0 );
+    gl::drawSolidCircle( Vec2f(0,-150), 40, 300 );
 	gl::popModelView();
     
 	// set the current drawing color to red
@@ -147,10 +145,10 @@ void AnalogClockApp::draw()
 	// draw the hand for the seconds
 	gl::pushModelView();
     gl::translate( center );
-    gl::rotate( seconds /60*360 +milliseconds/1000/60*360 ); // 360 degrees per 60 seconds
+    gl::rotate( seconds /60*360 +milliseconds/1000/60*360 ); // this adds a smoother rotation than the second hand alone
     //gl::drawSolidRect( Rectf(-1, -100, 1, 15) );
     glColor4f(.35f, .96f, .72f, .8f); //aqua
-    gl::drawSolidCircle( Vec2f(0,-300), 40, 50 );
+    gl::drawSolidCircle( Vec2f(0,-220), 40, 50 );
 	gl::popModelView();
 }
 

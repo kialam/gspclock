@@ -1,10 +1,6 @@
 dependencies: \
-  /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp \
+  /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp \
   ../../cinder_0.8.5_mac/include/cinder/app/AppNative.h \
-  ../../cinder_0.8.5_mac/include/cinder/Timeline.h \
-  ../../cinder_0.8.5_mac/include/cinder/TimelineItem.h \
-  ../../cinder_0.8.5_mac/include/cinder/Easing.h \
-  ../../cinder_0.8.5_mac/include/cinder/Tween.h \
   ../../cinder_0.8.5_mac/boost/boost/date_time/posix_time/posix_time.hpp \
   ../../cinder_0.8.5_mac/boost/boost/date_time/compiler_config.hpp \
   ../../cinder_0.8.5_mac/boost/boost/date_time/locale_config.hpp \

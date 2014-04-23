@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdio.h>
 #include "cinder/Timeline.h"
+#include "boost/date_time/posix_time/posix_time.hpp"
 
 
 using namespace ci;
@@ -61,24 +62,36 @@ void AnalogClockApp::draw()
     
     // Create a raw time_t variable and a tm structure
     time_t rawtime;
-    struct tm * timeinfo2;
+    struct tm * timeinfo;
     
     // Get the current time and place it in time_t
     time ( &rawtime );
     
     // Get the locatime from the time_t and put it into our structure timeinfo
-    timeinfo2 = localtime ( &rawtime );
+    timeinfo = localtime ( &rawtime );
     
     // Now we have access to hours, minutes, seconds etc as member variables of all type int
-    double hour = timeinfo2->tm_hour;
-    double min = timeinfo2->tm_min;
-    double sec = timeinfo2->tm_sec;
-    double day = timeinfo2->tm_wday;
+    double hour = timeinfo->tm_hour;
+    double min = timeinfo->tm_min;
+    double sec = timeinfo->tm_sec;
+    double day = timeinfo->tm_wday;
     
     // Just print out the hours and minutes to show you
     cout << "day " << day << " hour " << hour << " min "<< min << " sec " << sec << endl;
     //cout << sec/60 * Math_PI*2;
 
+    
+    // Get current time from the clock, using microseconds resolution
+    boost::posix_time::ptime now = boost::posix_time::microsec_clock::local_time();
+    
+    // Get the time offset in current day
+    boost::posix_time::time_duration td = now.time_of_day();
+    
+    // break apart for millisecond conversion
+    long hours = td.hours();
+    long minutes = td.minutes();
+    double seconds = td.seconds();
+    double milliseconds = td.total_milliseconds() - ((hours * 3600 + minutes * 60 + seconds) * 1000);
     
 	// draw the 12 hour digits
 	for(int h=0;h<12;++h)
@@ -96,9 +109,6 @@ void AnalogClockApp::draw()
 		// restore the transformations
 		gl::popModelView();
 	}
-    
-	// get the number of seconds since midnight
-    //	float seconds = getSecondsSinceMidnight();
     
     // enable transparency
     gl::enableAlphaBlending();
@@ -119,7 +129,7 @@ void AnalogClockApp::draw()
     gl::rotate( hour /12*360+min/60/12*360 ); // 30 degrees per 3600 seconds
     //  gl::drawSolidRect( Rectf(-2, -60, 2, 15) );
     glColor4f(.75, .71f, .36f, .8f); //yellow
-    gl::drawSolidCircle( Vec2f(0,-250), 40, 200 );
+    gl::drawSolidCircle( Vec2f(0,-220), 40, 200 );
 	gl::popModelView();
     
 	// draw the long hand for the minutes
@@ -137,21 +147,11 @@ void AnalogClockApp::draw()
 	// draw the hand for the seconds
 	gl::pushModelView();
     gl::translate( center );
-    gl::rotate( sec /60*360 ); // 360 degrees per 60 seconds
+    gl::rotate( seconds /60*360 +milliseconds/1000/60*360 ); // 360 degrees per 60 seconds
     //gl::drawSolidRect( Rectf(-1, -100, 1, 15) );
     glColor4f(.35f, .96f, .72f, .8f); //aqua
-    gl::drawSolidCircle( Vec2f(0,-280), 40, 50 );
+    gl::drawSolidCircle( Vec2f(0,-300), 40, 50 );
 	gl::popModelView();
-
-    // draw the hand for the milliseconds
-//	gl::pushModelView();
-//    gl::translate( center );
-//    gl::rotate( sec * 1000/ 360 ); // 360 degrees per 60 seconds
-//    //gl::drawSolidRect( Rectf(-1, -100, 1, 15) );
-//    glColor4f(0, 0, 0, .8f); //aqua
-//    gl::drawSolidCircle( Vec2f(0,-300), 40, 50 );
-//	gl::popModelView();
-
 }
 
 
@@ -162,6 +162,7 @@ void AnalogClockApp::keyDown( KeyEvent event )
 {
 	switch( event.getCode() )
 	{
+        // ESC key exits program
         case KeyEvent::KEY_ESCAPE:
             quit();
             break;

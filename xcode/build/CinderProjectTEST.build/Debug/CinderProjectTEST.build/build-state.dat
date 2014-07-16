@@ -6,8 +6,6 @@ cProcessInfoPlistFile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/
 cCpResource ../resources/CinderApp.icns ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386
-cTouch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c000000005130312F00000000000000AA
@@ -5055,9 +5053,9 @@ t1396467550
 s459637
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp
-c00000000535814D50000000000000C79
-t1398281429
-s3193
+c0000000053C6A81D0000000000000D7C
+t1405528093
+s3452
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList
 c00000000534F0FE10000000000000095
@@ -5065,11 +5063,11 @@ t1397690337
 s149
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o
-t1398281287
-s1962144
+t2
+s0
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app
-t1398281288
+t1405527307
 s102
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/Info.plist
@@ -5077,8 +5075,8 @@ t1396999224
 s1477
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST
-t1398281288
-s2889380
+t1405527307
+s2889392
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/PkgInfo
 t1396999224
@@ -9169,12 +9167,12 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies607875564c08b941^9ab075564c08b941^---0#1#0#--18"Check dependencies36"E4403484-ABF5-490F-9567-C39D453DB4E9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfa457d9edf76b941^3c887d9edf76b941^---0#1#0#--18"Check dependencies36"E2CC66A2-D26B-4299-8679-CAF327861707-
 
 CCompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419974230.501653
-e419974232.085561
-r1
+s427220894.533740
+e427220895.747399
+r0
 xCompileC
 x./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o
 x/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp
@@ -9182,14 +9180,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp:4:9: warning: 'M_PI' macro redefined
-o#define M_PI           3.14159265358979323846
-o        ^
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h:595:9: note: previous definition is here
-o#define M_PI        3.14159265358979323846264338327950288   /* pi             */
-o        ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cppc7d481564c08b941^6ce915584c08b941^-440"/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp:4:9: warning: 'M_PI' macro redefined#define M_PI           3.14159265358979323846        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h:595:9: note: previous definition is here#define M_PI        3.14159265358979323846264338327950288   /* pi             */        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@22"'M_PI' macro redefined-419974232#18446744073709551615#0#1(2@27"Previous definition is here-419974232#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@133"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h0000000000000000^594#8#594#8#23685#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/src/CinderProjectTESTApp.cpp0000000000000000^3#8#3#8#86#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp0000000000000000^3117"CompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o ../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o36"A468C3B4-648F-4112-9779-16D699DC9B82-
+o/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp:52:19: error: no member named 'days' in 'boost::posix_time::time_duration'
+o    long day = td.days();
+o               ~~ ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp55bd889edf76b941^6552bf9fdf76b941^-216"/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp:52:19: error: no member named 'days' in 'boost::posix_time::time_duration'    long day = td.days();               ~~ ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"No member named 'days' in 'boost::posix_time::time_duration'-427220895#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/src/CinderProjectTESTApp.cpp0000000000000000^51#18#51#18#1229#0#14"Semantic Issue1(3@82"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/src/CinderProjectTESTApp.cpp0000000000000000^51#15#51#17#1226#0#-0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp0000000000000000^3117"CompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o ../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/CinderProjectTESTApp.cpp -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o36"E7446F48-5353-4135-A82D-CA9FE31C7883-
 
 CCompileC ./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTESTApp.o /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../src/CinderProjectTESTApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s418606989.538237
@@ -9214,14 +9209,14 @@ x./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icnse882828949efb841^34d8188a49efb841^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns000000000080d041^461"CpResource ../resources/CinderApp.icns ./build/Debug/CinderProjectTEST.app/Contents/Resources/CinderApp.icns    cd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/../resources/CinderApp.icns /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/Resources36"5E951891-B5A3-4AA7-A097-229C6873F1D5-
 
 CLd /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386
-s419974232.092954
-e419974232.674866
+s427220107.213618
+e427220107.964254
 r1
 xLd
 x/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST3bdf17584c08b941^f4c3ac584c08b941^---0#0#0#--1049"Ld ./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST36"19DB09B9-642C-414E-AF1F-F77184DD2F1C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST05c2368bdc76b941^49d9f68bdc76b941^---0#0#0#--1049"Ld ./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/Objects-normal/i386/CinderProjectTEST.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST36"2FFBA4E4-A52B-4D4A-AB20-AFA701E50FC6-
 
 CLd /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app/Contents/MacOS/CinderProjectTEST normal i386
 s418606990.445937
@@ -9278,12 +9273,12 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CinderProjectTEST_Prefix.pchc9c64b6147ffb841^473e0b6847ffb841^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/CinderProjectTEST_Prefix.pch0000000000000000^3104"ProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch.pth CinderProjectTEST_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/CinderProjectTEST-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/CinderProjectTEST.build/Debug/CinderProjectTEST.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug --serialize-diagnostics /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/CinderProjectTEST_Prefix.pch -o /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CinderProjectTEST_Prefix-degbttenzsgjoccslebpgjaociey/CinderProjectTEST_Prefix.pch.d36"383147A8-253A-42D0-AE4B-2779B0206D29-
 
 CTouch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app
-s419974232.682765
-e419974232.686829
+s427220107.972962
+e427220107.977018
 r1
 xTouch
 x/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.appcbd6ae584c08b941^0fd6af584c08b941^---0#0#0#--195"Touch ./build/Debug/CinderProjectTEST.app    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app36"E90436E6-F1E5-4D8D-A7A4-480285B141D0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app7d20f98bdc76b941^b41efa8bdc76b941^---0#0#0#--195"Touch ./build/Debug/CinderProjectTEST.app    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/CinderProjectTEST.app36"D58EE627-77F8-4F9F-9FD6-744178F7E6D1-
 
 CTouch /Users/kia_lam/Sites/Beta/CinderProjectTEST/xcode/./build/Debug/CinderProjectTEST.app
 s418606990.988068

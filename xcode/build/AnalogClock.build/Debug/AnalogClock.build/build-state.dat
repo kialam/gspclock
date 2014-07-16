@@ -5080,9 +5080,9 @@ t1396467550
 s459637
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp
-c000000005358463F0000000000001289
-t1398294079
-s4745
+c0000000053C5621500000000000012A2
+t1405444629
+s4770
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClock.LinkFileList
 c00000000534465200000000000000083
@@ -5090,11 +5090,11 @@ t1396991264
 s131
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o
-t1398294045
-s2026532
+t1401389634
+s2025456
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app
-t1398294046
+t1401389636
 s102
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/Info.plist
@@ -5102,8 +5102,8 @@ t1396991264
 s1459
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock
-t1398294046
-s2891924
+t1401389636
+s2890392
 
 N/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/PkgInfo
 t1396991265
@@ -5140,11 +5140,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c4582c07d08b941^f5a187c07d08b941^---0#1#0#--18"Check dependencies36"F9A5AA38-11F8-48EF-8391-0A5DC679F428-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc0ebbb959975b941^2e3ad1959975b941^---0#1#0#--18"Check dependencies36"DD517F4B-C854-4591-B98D-DB0708446329-
 
 CCompileC ./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419986880.565181
-e419986882.405224
+s427137430.112470
+e427137453.306748
 r1
 xCompileC
 x./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o
@@ -5153,7 +5153,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cppf3c790c07d08b941^bebd67c27d08b941^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp0000000000000000^2925"CompileC ./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o ../src/AnalogClockApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o36"A659CD90-215A-4567-9615-9ABFD3C20AEA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp13ef1c969975b941^37884ead9975b941^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp0000000000000000^2925"CompileC ./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o ../src/AnalogClockApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -include /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch -MMD -MT dependencies -MF /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.d --serialize-diagnostics /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../src/AnalogClockApp.cpp -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClockApp.o36"D12A182C-E963-4880-80A8-97FA66B70DAD-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/AnalogClock.app/Contents/Resources/CinderApp.icns
 s418684065.171473
@@ -5165,14 +5165,14 @@ x./build/Debug/AnalogClock.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/AnalogClock.app/Contents/Resources/CinderApp.icnsce8d45a19cf4b841^c87ae6a19cf4b841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/Resources/CinderApp.icns000000000080d041^431"CpResource ../resources/CinderApp.icns ./build/Debug/AnalogClock.app/Contents/Resources/CinderApp.icns    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kia_lam/Sites/Beta/AnalogClock/xcode/../resources/CinderApp.icns /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/Resources36"8C3FD667-FAD6-4F54-BC84-CFF6F6D06125-
 
 CLd /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock normal i386
-s419986882.412712
-e419986883.043526
+s427137453.314604
+e427137455.174675
 r1
 xLd
 x/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock24b869c27d08b941^1c250bc37d08b941^---0#0#0#--1007"Ld ./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock normal i386    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClock.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock36"0D50F5C6-DC1B-4D22-9EE4-B9B75CDB41C8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClockaa9e50ad9975b941^a2b72caf9975b941^---0#0#0#--1007"Ld ./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock normal i386    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug -filelist /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/Objects-normal/i386/AnalogClock.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/MacOS/AnalogClock36"3994ADC3-71A5-4C03-95CF-AD810AADDF7F-
 
 CProcessInfoPlistFile /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app/Contents/Info.plist Info.plist
 s418684064.925075
@@ -5200,10 +5200,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile AnalogClock_Prefix.pchb9c1e8a19cf4b841^c22f61b79cf4b841^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/kia_lam/Sites/Beta/AnalogClock/xcode/AnalogClock_Prefix.pch0000000000000000^2948"ProcessPCH++ /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch.pth AnalogClock_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-generated-files.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-own-target-headers.hmap -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-all-target-headers.hmap -iquote /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/AnalogClock-project-headers.hmap -iquote../../cinder_0.8.5_mac/include -iquote../include -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug/include -I../../cinder_0.8.5_mac/boost -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources/i386 -I/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/AnalogClock.build/Debug/AnalogClock.build/DerivedSources -F/Users/kia_lam/Sites/Beta/AnalogClock/xcode/build/Debug --serialize-diagnostics /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch.dia -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/AnalogClock_Prefix.pch -o /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f7/fg7wspvx335ctj_845y7v7gm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AnalogClock_Prefix-degbttenzsgjoccslebpgjaociey/AnalogClock_Prefix.pch.d36"BD0D3BC4-9AD0-4F2A-9381-65B037276779-
 
 CTouch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app
-s419986883.051095
-e419986883.103424
+s427137455.183509
+e427137455.200930
 r1
 xTouch
 x/Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app79210dc37d08b941^207a1ac37d08b941^---0#0#0#--183"Touch ./build/Debug/AnalogClock.app    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app36"D6120FDF-2BFD-4FE3-B8E9-7D8F36BA08BB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.appd9052faf9975b941^7a7033af9975b941^---0#0#0#--183"Touch ./build/Debug/AnalogClock.app    cd /Users/kia_lam/Sites/Beta/AnalogClock/xcode    /usr/bin/touch -c /Users/kia_lam/Sites/Beta/AnalogClock/xcode/./build/Debug/AnalogClock.app36"89E5B81B-BAD8-4EFC-A8B5-19644021BE40-
 

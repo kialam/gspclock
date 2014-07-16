@@ -1,7 +1,7 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include <Math.h>
-#define M_PI           3.14159265358979323846
+//#define M_PI           3.14159265358979323846
 #include "boost/date_time/posix_time/posix_time.hpp"
 
 
@@ -39,7 +39,7 @@ void CinderProjectTESTApp::draw()
 {
 	// clear out the window with white
     gl::clear( Color( 1, 1, 1), true);
-    
+    // turn on blending
     gl::enableAlphaBlending();
     
     // Get current time from the clock, using microseconds resolution
@@ -49,12 +49,13 @@ void CinderProjectTESTApp::draw()
     boost::posix_time::time_duration td = now.time_of_day();
     
     // break apart for millisecond conversion
+    long day = td.days();
     long hours = td.hours();
     long minutes = td.minutes();
     double seconds = td.seconds();
     double milliseconds = td.total_milliseconds() - ((hours * 3600 + minutes * 60 + seconds) * 1000);
     
-    cout << " hour " << hours << " min "<< minutes << " sec " << seconds << endl;
+    cout << " day " << day << " hour " << hours << " min "<< minutes << " sec " << seconds << endl;
     // do some math to get correct radians
     double secs_millisecs = seconds + (milliseconds/1000); //add seconds and milliseonds for smoother drawing
     double percent = secs_millisecs / 60; // return 0-1 as double (eg: 0.25)
@@ -71,25 +72,28 @@ void CinderProjectTESTApp::draw()
     double hdegrees = (hpercent * 360) -90;
     double hradians = cinder::toRadians(hdegrees);
     
+    // draw the hand for the seconds
     float secX = cos( radians ) * 400.0f;
     float secY = sin( radians ) * 400.0f;
-    glColor4f(.35f, .96f, .72f, .8f);
-    gl::drawSolidCircle( Vec2f( secX, secY ) + getWindowSize() /2, 40.0f);
+    glColor4f(.35f, .96f, .72f, .8f); //aqua
+    gl::drawSolidCircle( Vec2f( secX, secY ) + getWindowSize() /2, abs(seconds+(milliseconds/1000)));
     
-    
+    // draw the hand for the minutes
     float minX = cos( mradians ) * 300.0f;
     float minY = sin( mradians ) * 300.0f;
-    glColor4f(.33f, .32f, .33f, .8f);
+    glColor4f(.33f, .32f, .33f, .8f); //grey
     gl::drawSolidCircle( Vec2f( minX, minY ) + getWindowSize() /2, 40.0f);
     
+    // draw the hand for the hours
     float hrX = cos( hradians ) * 200.0f;
     float hrY = sin( hradians ) * 200.0f;
-    glColor4f(.75, .71f, .36f, .8f);
+    glColor4f(.75, .71f, .36f, .8f); //yellow
     gl::drawSolidCircle( Vec2f( hrX, hrY ) + getWindowSize() /2, 40.0f);
     
+    // draw the hand for the days
     float dayX = cos( getElapsedSeconds()/86400 ) * 100.0f;
     float dayY = sin( getElapsedSeconds() )/86400 * 100.0f;
-    glColor4f(.92f, .21f, .49f, .8f);
+    glColor4f(.92f, .21f, .49f, .8f); //red
     gl::drawSolidCircle( Vec2f( dayX, dayY ) + getWindowSize() /2, 40.0f);
     
     
